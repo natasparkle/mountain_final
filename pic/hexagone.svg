@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Avocode 2.6.0 - http://avocode.com -->
+<svg height="144" width="133" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 133 144">
+    <defs>
+        <filter height="200%" width="200%" y="-50%" x="-50%" id="filter-1">
+            <feOffset result="shadowOffset1" in="SourceAlpha" dy="5" dx="0" />
+            <feGaussianBlur result="shadowBlur1" in="shadowOffset1" stdDeviation="5" />
+            <feColorMatrix result="shadowMatrix1" in="shadowBlur1" type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0   0 0 0 0.19 0" />
+            <feMerge>
+                <feMergeNode in="shadowMatrix1" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+    <path filter="url(#filter-1)" fill="#ffffff" fill-rule="evenodd" d="M 75.84 4.99 C 87.37 10.89 95.68 15.54 106.46 21.52 C 116.89 26.72 119.01 33.09 118.98 46.2 C 118.98 58.09 119.02 67.28 118.98 80.66 C 119.03 94.03 116.37 96.23 105.77 103.16 C 95.86 108.92 87.1 113.96 75.84 120.29 C 65.96 126.7 57.62 126.43 48.6 120.29 C 37.59 114.31 29.64 109.74 18.67 103.16 C 8.08 96.69 4.22 91.74 4.03 79.07 C 4.06 66.98 3.93 58.32 4.03 46.2 C 4 33.78 8.24 27.17 18.67 22.12 C 29.87 15.08 37.59 10.64 48.6 4.99 C 60.72 -1.65 63.79 -1.7 75.84 4.99 Z" />
+</svg>

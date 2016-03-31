@@ -1,0 +1,104 @@
+@charset "utf-8";
+ 
+html, body, div, h1, h2, h3, p, b, i, strong, em, strike, sub, sup, ul, ol, li, 
+blockquote, form, input, textarea, select, button, td, tr, th, table, span, 
+header, footer, article, aside, nav, section, hgroup  {
+	padding: 0;
+	margin: 0;
+	vertical-align: baseline;
+	border: none;
+}
+
+header, footer, article, aside, nav, section, hgroup { display: block; }
+
+html { overflow-y:  scroll; }
+
+body {
+	background: #fff;
+	color: #222;
+	font-family: serif;
+	font-size: 100%;
+	overflow: hidden;
+}
+
+img {
+	border:  none;
+	outline:  none;
+}
+
+a {
+	color: #12c;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #12c;
+	text-decoration: none;
+}
+
+a:visited, 
+a:active {
+	outline: none;
+}
+
+ul {
+	list-style: disc outside;
+	padding-left: 20px;
+}
+
+ul li { padding-left: 2px; }
+
+ol {
+	list-style: decimal outside;
+	padding-left: 22px;
+}
+
+nav ol, nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav li {
+	display: block;
+}
+
+input, 
+select, 
+textarea {
+	display: block;
+	border:  1px solid #666;
+	font-family: serif;
+	outline: none;
+	vertical-align: top;
+    box-sizing:  border-box;
+}
+
+textarea {
+	resize: none;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+sub, sup {
+	font-size: 70%;
+	line-height: 0;
+	vertical-align: baseline;
+	position: relative;
+}
+
+sub { bottom: -0.5em; }
+sup { top: -0.5em; }
+ 
+b, strong { font-weight: bold; }
+i, em { font-style: italic; }
+ 
+h1 { font-size:  2em;}
+h2 { font-size:  1.5em; }
+h3 { font-size:  1.17em; }
+ 
+small { font-size: 85%;}
+ 
+table, td {
+	border-collapse: collapse;
+	border-spacing: none;
+}
